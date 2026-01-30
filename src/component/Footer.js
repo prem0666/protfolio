@@ -18,10 +18,10 @@ const Footer = () => {
         <div>
           <h3 className="text-white font-semibold mb-4">Quick Links</h3>
           <ul className="space-y-2 text-sm">
-            <li className="hover:text-white cursor-pointer">Home</li>
-            <li className="hover:text-white cursor-pointer">Projects</li>
-            <li className="hover:text-white cursor-pointer">About</li>
-            <li className="hover:text-white cursor-pointer">Contact</li>
+            <li className="hover:text-white cursor-pointer"><a href="/">Home</a></li>
+          <li className="hover:text-white cursor-pointer"><a href="/projects">Projects</a></li>
+          <li className="hover:text-white cursor-pointer"><a href="/about">About</a></li>
+          <li className="hover:text-white cursor-pointer"><a href="/contact">Contact</a></li>
           </ul>
         </div>
 
@@ -29,9 +29,27 @@ const Footer = () => {
         <div>
           <h3 className="text-white font-semibold mb-4">Connect</h3>
           <div className="flex gap-4">
-            <a href="#" className="hover:text-white">GitHub</a>
-            <a href="#" className="hover:text-white">LinkedIn</a>
-            <a href="#" className="hover:text-white">Instagram</a>
+            <a href="https://github.com/prem0666" target="_blank"
+              rel="noopener noreferrer" className="hover:text-white">GitHub</a>
+            <li>
+            <a
+              href="https://www.linkedin.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              LinkedIn
+            </a>
+          </li>
+
+          <li>
+            <a
+              href="https://www.instagram.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Instagram
+            </a>
+          </li>
           </div>
         </div>
 
