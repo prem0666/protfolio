@@ -21,24 +21,34 @@ const Project = () => {
           </div>
         </div>
         <div className="flex items-center justify-center">
+              <a
+            href="https://the-spice-house-two.vercel.app/" >
           <div className="relative z-20 my-20 flex items-center ">
             <img src="download.avif" alt="projects" className="w-80 " />
             <div className="absolute w-full h-full  top-0 left-0 hover:bg-black/30  z-99 flex items-end justify-center text-white pb-3 sm:pb-10 text-lg uppercase font-bold">
               project 01
             </div>
           </div>
+              </a>
+                <a
+            href="https://the-spice-house-two.vercel.app/" >
           <div className="relative z-20 ">
             <img src="download.jpg" alt="projects" className="w-80 " />
             <div className="absolute w-full h-full  top-0 left-0 hover:bg-black/30  z-99 flex items-end justify-center text-white pb-3 sm:pb-10 text-lg uppercase font-bold">
               projects 02
             </div>
           </div>
+               </a>
+
+                <a
+            href="https://the-spice-house-two.vercel.app/" >
           <div className="relative z-20 ">
             <img src="download2.avif" alt="projects" className="w-80 " />
             <div className="absolute w-full h-full  top-0 left-0 hover:bg-black/30  z-99 flex items-end justify-center text-white pb-3 sm:pb-10 text-lg uppercase font-bold">
               projects 03
             </div>
           </div>
+               </a>
         </div>
       </div>
       
